@@ -112,7 +112,7 @@
                 await sleep(2000);
                 if (!!phone) {
                     try {
-                        log('Using phone: ' + document.phone);
+                        log('Using phone: ' + phone);
                         setInput(phoneInput, phone);
                         let submitPhoneButton = event.originalTarget.contentDocument.querySelector('input[type="submit"]');
                         if (!!submitPhoneButton) {
